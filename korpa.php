@@ -43,7 +43,7 @@ include_once('./php/korpa.php');
             echo "<a href=\"./php/naruci.php\"><button type='button'>Naruci</button></a>";
         }
         ?>
-        <a href="./index.php"><button type='button'>Nazad</button></a>
+        <a href="./index.php"><button type='button'>Pocetna stranica</button></a>
     </div>
     <div class="clear"></div>
 
