@@ -38,7 +38,11 @@ include_once('./php/korpa.php');
             }
             ?>
         </div>
-        <a href="./php/naruci.php"><button type='button'>Naruci</button></a>
+        <?php
+        if (isset($_SESSION['username'])) {
+            echo "<a href=\"./php/naruci.php\"><button type='button'>Naruci</button></a>";
+        }
+        ?>
         <a href="./index.php"><button type='button'>Nazad</button></a>
     </div>
     <div class="clear"></div>
