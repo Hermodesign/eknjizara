@@ -1,5 +1,5 @@
 <?php
 session_start();
-include_once('./php/korpa.php');
+include_once('./korpa.php');
 $korpa->naruci();
-header('Location: ./index.php');
+header('Location: ../index.php');
