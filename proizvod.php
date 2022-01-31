@@ -15,6 +15,7 @@ include_once('./php/proizvod.php');
     <title>Knjizara | Nikola Mitic</title>
     <link rel="stylesheet" href='./css/main.css'>
     <link rel="stylesheet" href="./css/proizvod.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
 </head>
 
 <body>

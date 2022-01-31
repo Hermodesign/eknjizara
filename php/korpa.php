@@ -1,5 +1,4 @@
 <?php
-include_once('./php/baza.php');
 
 class Korpa
 {
@@ -68,7 +67,7 @@ class Korpa
         foreach ($_SESSION['item_cart'] as $id => $amount) {
             $i = $i + $amount;
         }
-        return "$i proizvoda.";
+        return "$i";
     }
 
     function isprazniKorpu()

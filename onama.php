@@ -1,5 +1,8 @@
-<?php include_once('./php/main.php');
-include_once('./php/baza.php'); ?>
+<?php
+session_start();
+include_once('./php/main.php');
+include_once('./php/baza.php');
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -9,6 +12,7 @@ include_once('./php/baza.php'); ?>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>O nama</title>
     <link rel="stylesheet" href="./css/main.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
 </head>
 
 <body>

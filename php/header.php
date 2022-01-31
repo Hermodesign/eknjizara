@@ -4,9 +4,8 @@ function uzmiBroj()
     if (isset($_SESSION['username'])) {
         global $korpa;
         $broj = $korpa->getBroj();
+        if(!$broj == 0)
         return $broj;
-    } else {
-        return 0;
     }
 }
 ?>
@@ -22,7 +21,7 @@ function uzmiBroj()
             </a>
         </div>
         <div class="cart">
-            <p><a href="./korpa.php">Korpa: <span><?php include_once('./php/korpa.php'); echo uzmiBroj() ?></span></a></p>
+            <p><a href="./korpa.php"><i class="fas fa-shopping-cart"></i><span><?php include_once('./php/korpa.php'); echo uzmiBroj() ?></span></a></p>
         </div>
         <div class="clear"></div>
     </div>
