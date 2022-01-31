@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+.card {
+    font-family: 'Open Sans', sans-serif;
+    width: 300px;
+    margin: 20px 50px 50px 0;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px #222;
+    padding: 10px 8px;
+    display: inline-block;
+}
+
+.card:last-child {
+    margin-right: 0;
+}
+
+.card > .cena span{
+    /* font-size: 20px; */
+    font-weight: 600;
+}
+
+.card img {
+    max-width: 290px;
+    max-height: 400px;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border: 1px solid black;
+    width: 200px;
+    text-align: center;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.description {
+    padding-top: 20px;
+    min-height: 120px;
+}
+
+button:hover{
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+}

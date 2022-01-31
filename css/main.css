@@ -1,0 +1,273 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+}
+
+.clear {
+    clear: both;
+    content: "";
+}
+
+.sale {
+    width: 100%;
+    height: 30px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.top-line {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+header .logo {
+    float: left;
+    width: 30%;
+    padding-left: 50px;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+header .cart {
+    float: left;
+    width: 70%;
+    height: 50px;
+    text-align: right;
+    padding-top: 12px;
+    padding-right: 30px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+body {
+    background: #f2f2f2;
+    font-family: "Open Sans", sans-serif;
+}
+
+header .slider {
+    width: 100%;
+    height: 273px;
+    background-image: url("../images/headerimg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+ul li {
+    padding-top: 8px;
+    padding-bottom: 30px;
+    float: left;
+    height: 30px;
+    border: none;
+    list-style: none;
+    text-decoration: none;
+    background-color: #9e9c9d;
+    width: 20%;
+    text-align: center;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul li:hover {
+    background: #708090;
+}
+
+.main {
+    margin: 0 auto;
+    width: 90%;
+}
+
+.ponuda {
+    text-align: center;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.block {
+    padding: 30px 0;
+    float: left;
+    width: 33.33%;
+    text-align: center;
+}
+
+.block img {
+    width: 150px;
+}
+
+.b02 {
+    border-bottom: 2px solid #ccc;
+}
+
+.proizvod {
+    text-align: center;
+}
+
+.cena {
+    padding-top: 10px;
+    font-weight: 600;
+}
+
+.desk {
+    width: 50%;
+    float: left;
+    padding: 30px;
+}
+
+.desk h1 {
+    padding-bottom: 30px;
+}
+
+.desk img {
+    width: 100%;
+}
+
+.img {
+    padding-top: 100px;
+}
+
+.btn {
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border: 1px solid black;
+    width: 300px;
+    text-align: center;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+}
+
+form {
+    padding-top: 30px;
+    margin: 0 auto;
+    max-width: 600px;
+    clear: both;
+    content: "";
+}
+
+.left {
+    width: 20%;
+    float: left;
+    padding-left: 10px;
+}
+
+.right {
+    width: 78%;
+    float: right;
+    text-align: right;
+}
+
+label {
+    display: block;
+    padding: 5px 0;
+    margin: 3px 0;
+}
+
+input {
+    width: 95%;
+    padding: 5px 0;
+    margin: 3px 3px;
+}
+
+textarea {
+    width: 95%;
+    margin: 3px 3px;
+}
+
+#btn-primeni {
+    width: 130px;
+    height: 30%;
+    background-color: #fff;
+    color: black;
+    border: 1px solid black;
+}
+
+#btn-primeni:hover {
+    color: white;
+    background-color: black;
+}
+
+footer {
+    width: 100%;
+    height: 100px;
+    background-color: #d4d4d4;
+    margin-top: 40px;
+}
+
+.footer-text {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px;
+}
+
+#prijava {
+    text-transform: uppercase;
+    tab-size: 15px;
+    color: white;
+}
+
+.korpa {
+    padding-top: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+    nav {
+        height: auto;
+    }
+
+    ul li {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .main div {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .prvi img {
+        padding: 30px 0;
+        width: 50%;
+    }
+}
+
+.tabela {
+    width: 50%;
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+.tabela th {
+    border: 1px solid black;
+    padding-left: 10px;
+}
+
+.tabela td {
+    border: 1px solid black;
+    padding-left: 10px;
+}
+
+.centar {
+    text-align: center;
+    margin: 0 auto;
+}
